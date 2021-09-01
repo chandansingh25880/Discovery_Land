@@ -1,0 +1,133 @@
+
+    
+    * {
+        box-sizing: border-box;
+        padding: o;
+        margin: 0;
+        background-color: black;
+        
+        }
+        
+        .hh1 {
+            height: 50vh;
+            width: 100vw;
+          
+            background-image: url();
+            background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+            
+        }
+        
+        .container {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: white;
+            font-size: 25px;
+            position: relative;
+            bottom: 20%;
+            color: white ;
+            /* background-image: url(image/gallery-screen.jpg); 
+           background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; */
+
+        }
+        
+        .logo{
+            flex-grow: 0.3;
+        }
+
+        h1{
+            color: white;
+            font-size: 3.5em;
+            margin-top: 5cm;
+            margin-left: 4cm;
+            bottom: 50%;
+        }
+        
+
+
+    body{
+        background-image: url(C:\Users\Admin\java_script\Discovery\image\gallery-screen.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .footer{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .footer1{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color:white;
+        font-size: 20px;
+      /* border: 2px solid red;*/
+        position: relative;
+    }
+    
+    .footer-logo{
+        flex-grow: 0.3;
+        /*border: 10px solid green;*/
+    }
+
+    
+
+    .part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 55vh;
+
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 120%;
+
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 33.3vw;  
+}
+
+.b1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 70vh;
+
+}
+
+.img{
+    background-image: url(..\image\gallery_bg.jpeg);
+    height: 100%;
+    width: 33.33333334%;
+    background-position: center;
+}
+
+
+
