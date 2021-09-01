@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    padding: o;
+    margin: 0;
+    
+    }
+    
+    .header {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .navbar {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 20px;
+        overflow: hidden;
+        border: 2px ;
+        position: relative;
+        bottom: 20%;
+        color: white ;
+    }
+    
+    .logo{
+        flex-grow: 0.3;
+    }
+    
+    .heading{
+        height: 60%;
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 20%;
+        bottom: 80%;
+        color: white;
+        font-size: 30px;
+    }
+    .scroll{
+        height: 40%;
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 8%;
+        bottom: 80%;
+        color: white;
+    }
+    
+    .img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .information{
+        
+        color: black;
+        display: flex;
+        height: 10vh;
+        width: 100vw;
+        font-size: 30px;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .para1{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .para2{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .para3{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .para4{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+  
+    .container1{
+      
+        margin-top: 5%;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .image{
+         
+        height: 100%;
+        width: 50%;
+       
+    }
+    .picture{
+       
+        height: 100%;
+        width: 80%;
+        background-image: url(../image/aboutdlc3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 6%;
+    }
+    
+    .paragraph{
+        height: 80%;
+        width: 40%;
+        display: flex;
+       margin-top: 5%;
+    }
+    .lines{
+       
+        height: 80%;
+        width: 80%;
+        flex-direction: column;
+      
+    }
+    .line1{
+       
+        margin-left: 39%;
+        margin-top: 5%;
+    }
+    .line2{
+       
+        margin-left: 39%;
+        height: 25%;
+        width: 100%;
+        font-size: 17px;
+        margin-top: 5%;
+       
+    }
+    .line3{
+       
+        margin-left: 39%;
+        height: 25%;
+        width: 100%;
+        font-size: 17px;
+        margin-top: 5%;
+        
+    }
+    
+     /* SECTION-3  */
+    .photo{
+       
+        height: 100vh;
+        width: 100vw;
+        background-image: url(../image/aboutdlc.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+         /* SECTION-4 */
+    .photo1{
+    
+        height: 100vh;
+        width: 100vw;
+        background-image: url(../image/aboutdlc5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
